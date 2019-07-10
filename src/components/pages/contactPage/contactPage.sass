@@ -1,0 +1,167 @@
+.contact-banner
+    height: 260px
+    background: url('./contact_bg.jpg') center 35% no-repeat
+    background-size: cover
+    .title-big
+        margin-top: 60px
+.contact
+    padding: 70px 0 40px 0
+    .title
+        margin-top: 10px
+    &__girl
+        display: block
+        margin: 0 auto
+    &__text
+        margin-top: 25px
+        font-size: 14px
+        text-align: center
+    &__search
+        &-label
+            margin-right: 20px
+        &-input
+            width: 180px
+            height: 30px
+            box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25)
+            border: none
+            border-radius: 4px
+            font-size: 12px
+            padding: 0 15px
+            &::placeholder
+                text-align: center
+    &__filter
+        display: flex
+        align-items: center
+        justify-content: space-between
+        &-label
+            margin-right: 35px
+        &-btn
+            width: 75px
+            height: 30px
+            background-color: #fff
+            border: none
+            box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25)
+            font-size: 12px
+            outline: none
+            cursor: pointer
+            &:first-child
+                border-radius: 4px 0px 0px 4px
+            &:last-child
+                border-radius: 0px 4px 4px 0px
+            &:focus
+                outline: none
+    &__wrapper
+        display: flex
+        flex-wrap: wrap
+    &__item
+        width: 220px
+        min-height: 240px
+        margin: 60px 40px 0 40px
+        padding: 22px 24px
+        background: rgba(255, 255, 255, 0.65)
+        border-radius: 8px
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25)
+        transition: 0.3s all
+        &:hover
+            box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.25)
+        img
+            display: block
+            margin: 0 auto
+            width: 151px
+            height: 130px
+            object-fit: cover
+        &-title, &-price, &-country
+            font-size: 14px
+            margin-top: 10px
+            text-align: right
+    &__point
+        margin-top: 16px
+        span
+            font-weight: bold
+        &-price
+            font-size: 24px
+            font-weight: normal !important
+        &:first-child
+            margin-top: 26px
+    &__form
+        margin-top: 100px
+        margin-bottom: 100px
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        &__formgroup
+            margin: 5px
+            input
+                margin-bottom: 15px
+                background: #FFFFFF
+                border: 1px solid rgba(0, 0, 0, 0.49)
+                box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25)
+                border-radius: 4px
+                height: 30px
+                padding: 15px 5px
+                &::placeholder
+                  font-size: 14px
+                  line-height: 20px
+                  color: rgba(0, 0, 0, 0.5)
+            textarea
+              background: #FFFFFF
+              border: 1px solid rgba(0, 0, 0, 0.49)
+              box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25)
+              border-radius: 4px
+              padding: 15px 5px
+              &::placeholder
+                font-size: 14px
+                line-height: 20px
+                color: rgba(0, 0, 0, 0.5)
+            &__4
+                display: flex
+                flex-direction: column
+                align-items: center
+                justify-content: center
+                label
+                    margin: 10px
+                    transform: translateX(80px)
+        label
+            margin-right: 150px
+        #somemessage
+            width: 350px
+            height: 120px
+        button
+            position: absolute;
+            width: 120px
+            height: 30px
+            background: #FFFFFF
+            border: 1px solid rgba(0, 0, 0, 0.49)
+            box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25)
+            border-radius: 4px
+            transform: translateY(200px)
+        &__asterisk
+            color: #BA0000
+            font-size: 16px
+            font-weight: bold
+    &__alt-form
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        margin-top: 100px
+        margin-bottom: 100px
+        h1
+            font-size: 36px
+            font-style: italic
+            margin-bottom: 20px
+        &__img
+            width: 300px
+        button
+            position: absolute;
+            width: 120px
+            height: 30px
+            background: #FFFFFF
+            border: 1px solid rgba(0, 0, 0, 0.49)
+            box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25)
+            border-radius: 4px
+            transform: translateY(160px)
+.errmessage
+    color: red
+        
+            
